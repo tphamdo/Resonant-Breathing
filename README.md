@@ -1,6 +1,6 @@
 # Resonant-Breathing
 
-Simple web app for myself to practice resonant breathing. A practice of breathing slowly, in for 5.5s, out for 5.5s for around 5.5 breaths/min.
+Simple web app for myself to practice resonant breathing. A practice of breathing slowly, in for 5.5s, out for 5.5s for around 5.5 breaths/min. This idea was inspired by the book [Breath](https://www.amazon.com/Breath-New-Science-Lost-Art/dp/0735213615) by James Nestor
 
 TODOs that will add value to my user experience: 
 <ul>
