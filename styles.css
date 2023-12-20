@@ -1,0 +1,110 @@
+import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  font-family: "Heebo", arial, helvetica, sans-serif;
+  font-size: clamp(0.5rem, calc(3vw + 0.1rem), 1.5rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.breath-div,
+.hour-div,
+.minute-div,
+.second-div, 
+.tenths-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-breath,
+.input-hours,
+.input-minutes, 
+.input-seconds,
+.input-tenths {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  width: clamp(3rem, calc(12vw + 0.2rem), 8.5rem);
+  height: clamp(2rem, calc(10vw + 0.1rem), 5.5rem);
+  font-family: "Heebo", arial, helvetica, sans-serif;
+  font-size: clamp(2rem, calc(10vw + 0.1rem), 6rem);
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.colon {
+  height: clamp(2rem, calc(10vw + 0.1rem), 5.5rem);
+  font-family: "Heebo", arial, helvetica, sans-serif;
+  font-size: clamp(1rem, calc(5vw + 0.1rem), 3.5rem);
+  justify-self: flex-start;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(0.25rem, calc(5% - 0.1rem), 1rem);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button-div button {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Heebo", arial, helvetica, sans-serif;
+  font-size: clamp(1rem, calc(5vw + 0.1rem), 1.5rem);
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.start-button {
+  background-color: green;
+}
+
+.reset-button {
+  background-color: red;
+}
+
+input[disabled] {
+   color: black;
+}

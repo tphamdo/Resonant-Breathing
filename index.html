@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resonant Breathing</title>
+  </head>
+  <body>
+  <main>
+    <div class="breath-div">
+      <h1 class="breath-text">Breath In</h1>
+    </div>
+    <section class="timer">
+      <div class="hour-div">
+        <input type="number" min="0" max="24" value="0" name="input-hours" class="input-hours" disabled=true>
+        <label for="input-hours" class="label-hours">Hours</label>
+      </div>
+      <div class="colon">:</div>
+      <div class="minute-div">
+        <input type="number" min="0" max="60" value="0" name="input-minutes" class="input-minutes" disabled=true>
+        <label for="input-minutes" class="label-minutes">Minutes</label>
+      </div>
+      <div class="colon">:</div>
+      <div class="second-div">
+        <input type="number" min="0" max="60" value="0" name="input-seconds" class="input-seconds" disabled=true>
+        <label for="input-seconds" class="label-seconds">Seconds</label>
+      </div>
+      <div class="colon">:</div>
+      <div class="tenths-div">
+        <input type="number" min="0" max="60" value="0" name="input-tenths" class="input-tenths" disabled=true>
+        <label for="input-tenths" class="label-tenths">Tenths</label>
+      </div>
+    </section>
+    <section class="button-div">
+      <button type="button" class="start-button">Start</button>
+      <button type="button" class="reset-button">Reset</button>
+    </section>
+  </main>
+  <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
